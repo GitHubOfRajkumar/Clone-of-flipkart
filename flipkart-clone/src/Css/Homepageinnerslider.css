@@ -1,0 +1,131 @@
+
+  
+  body {
+    background: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  .mySwiper{
+    overflow: hidden;
+    position: relative;
+  }
+  
+ 
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+   .img1 {
+   
+    /* display: block; */
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .2s;
+    
+    
+    /* margin:0 auto; */
+    /* background-color: rgb(173, 173, 237); */
+    border-radius: 10px;
+    /* border: 1px solid black; */
+  } 
+  
+
+  .partial{
+    position: relative;
+    bottom: 30px;
+    right: 0.7rem;
+  }
+
+ .h1{
+  font-size: 50px;
+  font-weight: 10;
+  position: relative;
+  bottom: 2.5rem;
+ }
+
+  .img1:hover{
+    transform:scale(1.1);
+}
+
+.button2{
+  position: relative;
+  bottom: 60px;
+  height: 50px;
+  background-color: #2874f0;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  width: 110px;
+}
+
+
+.trycatch{
+  /* border: 2px solid red; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.lastdiv{
+  /* border:2px solid red; */
+  width: 310px;
+  height: 410px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* width:310px,
+  height:410px, */
+}
+
+.div0{
+  /* border:2px solid red; */
+  /* width: 310px;
+  height: 410px; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* width:310px,
+  height:410px, */
+}
+.div1{
+  /* border: 2px solid red; */
+  width: 300px;
+  height:auto;
+}
+
+.img2 {
+   
+  /* display: block; */
+  width: 80%;
+  height: 70%;
+  object-fit: cover;
+  transition: transform .2s;
+  
+  
+  /* margin:0 auto; */
+  /* background-color: rgb(173, 173, 237); */
+  border-radius: 10px;
+  /* border: 1px solid black; */
+} 
+
+
+
+.img2:hover{
+  transform:scale(1.1);
+}
+
+.seconddiv{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: auto;
+  margin-top: 10px;
+  /* border: 2px solid red; */
+}
