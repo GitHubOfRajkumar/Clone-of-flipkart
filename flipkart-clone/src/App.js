@@ -28,6 +28,8 @@ import PageNotFound from './Pages/PageNotFound';
 
 // ReactDOM.render(<App />, document.getElementById('container'));
 const App=()=> {
+  console.log("Application started");
+
   return (
     <div className="App">
       
@@ -39,7 +41,7 @@ const App=()=> {
      {/* <LoginForm/> */}
     
 
-     {/* <Navbar/> */}
+     <Navbar/>
      
 
 

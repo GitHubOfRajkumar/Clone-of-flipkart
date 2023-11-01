@@ -27,8 +27,9 @@
     margin: auto;
     background: white;
     background-color: #FFFFFF;
+    border-radius: 20px;
     /* border-radius: 25px; */
-    border: 2px solid green;
+    /* border: 2px solid green; */
     /* position: relative;
     left: 29.5rem; */
   }
@@ -150,7 +151,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: green;
+    /* background-color: green; */
     background:  linear-gradient(to right, rgb(238, 1, 214), rgba(100, 200, 200, 1)),
     linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));;
     transform: scaleX(0);

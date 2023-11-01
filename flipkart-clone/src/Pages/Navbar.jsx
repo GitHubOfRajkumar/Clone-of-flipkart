@@ -56,6 +56,7 @@ import {
 } from "react-router-dom";
 
 import { useSelector } from "react-redux";
+import axios from "axios";
 //   import { forToast } from "../Redux/authReducer/action";
 
 const Navbar = () => {
@@ -72,6 +73,7 @@ const Navbar = () => {
   const homepage = ()=>{
     navigate("/")
   }
+  // axios.get("https://jsonplaceholder.typicode.com/users").then((res)=>console.log(res.data))
 
   const DetectWindowSize = () => {
     setWidth(window.innerWidth);
@@ -296,7 +298,11 @@ const Navbar = () => {
                     <ModalBody>
                       <div style={{ display: "grid", gridTemplateColumns: "repeat(6,1fr)" }}>
                         <Box>
-                          <Text className="navbar-items">HOME</Text>
+                        <Link to={"/products"}>
+                          <Text style={{color:"red"}} className="navbar-items">
+                           HOME
+                           </Text>
+                           </Link>
                         </Box>
                         <Box>
                           <Menu>
@@ -517,7 +523,7 @@ const Navbar = () => {
 
 
                   <Menu>
-                    <MenuButton className="navbar-items">HOME</MenuButton>
+                  <Link to="/products"><MenuButton className="navbar-items"> HOME  </MenuButton></Link>
                   </Menu>
                   <Box>
                     <Menu>
