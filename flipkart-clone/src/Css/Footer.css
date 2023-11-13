@@ -1,0 +1,34 @@
+.text-hover:hover {
+    color: rgb(60, 243, 60);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .text-hover {
+    margin: 5px 0px;
+    color: black;
+    /* background: black; */
+    
+  }
+  
+  .email-input {
+    padding: 10px 20px;
+    border: 1px solid black;
+  }
+  
+  .email-button {
+    padding: 11px;
+    background-color: black;
+    color: white;
+  }
+  .paragrap__1{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* background-color: black; */
+  }
+
+  /* *{
+    background: white;
+  } */

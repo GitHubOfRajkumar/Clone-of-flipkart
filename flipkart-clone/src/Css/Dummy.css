@@ -1,0 +1,47 @@
+/* a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #2874f0;
+    border: none;
+    font-weight: 100;
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    font-family: sans-serif Verdana, Geneva, Tahoma, sans-serif;
+  } */
+  /* .button2{
+    background-color: #2874f0;
+    border: none;
+    width: 7rem;
+    height: 3rem;
+  } */
+  
+  /* a:hover {
+    color: white;
+  }
+  
+  a::before {
+    
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    background:  linear-gradient(to right, rgb(238, 1, 214), rgba(100, 200, 200, 1)),
+    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+  } */
+/* 
+  body{
+    background: white;
+  } */
