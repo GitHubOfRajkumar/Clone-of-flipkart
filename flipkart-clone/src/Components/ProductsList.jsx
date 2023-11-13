@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { get_product_success, getproducts } from '../Redux/ProductReducer/action';
-
+import ProductsCard from './ProductsCard';
+import "../Css/ProductList.css"
 const ProductsList = () => {
 
   const dispatch = useDispatch()
@@ -29,11 +30,17 @@ const ProductsList = () => {
   return (
     <div>
       <h2>Products List</h2>
-      <ul>
-        {products.map((product) => (
-          <li key={product.id}>{product.name}</li>
-        ))}
-      </ul>
+
+      <div className='container2'>
+
+      {
+        products.map((el)=>{
+          return (
+            <ProductsCard className='container' key={el.id} {...el} />
+            )
+          })
+        }
+        </div>
     </div>
   );
 };

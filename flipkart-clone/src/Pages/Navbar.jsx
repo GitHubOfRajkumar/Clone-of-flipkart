@@ -527,7 +527,8 @@ const Navbar = () => {
                   </Menu>
                   <Box>
                     <Menu>
-                      <MenuButton className="navbar-items">MakeUp</MenuButton>
+                      <Link to={"/products-card"}>
+                      <MenuButton className="navbar-items">MakeUp</MenuButton></Link>
                       <MenuList style={{width:"120px"}}>
                         <MenuItem className="hvr-underline-from-center" >
                           Mens

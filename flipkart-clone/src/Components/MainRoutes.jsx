@@ -6,6 +6,7 @@ import Homepage from '../Pages/Homepage'
 import Navbar from '../Pages/Navbar'
 import PageNotFound from '../Pages/PageNotFound'
 import ProductsList from './ProductsList'
+import ProductsCard from './ProductsCard'
 const MainRoutes = () => {
   return <Routes>
     {/* <Route path='/navbar' element={<Navbar/>}/> */}
@@ -14,6 +15,7 @@ const MainRoutes = () => {
     <Route path='/login' element={<Login />} />
     <Route path='/register' element={<LoginForm />} />
     <Route path='*' element={<PageNotFound/>} />
+    <Route path='/products-card' element={<ProductsCard/>}/>
 
   </Routes>
 }

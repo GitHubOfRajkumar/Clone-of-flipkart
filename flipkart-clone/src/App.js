@@ -17,6 +17,8 @@ import MainRoutes from './Components/MainRoutes';
 import Slider from './Pages/Slider';
 import Homepageinnerslider from './Pages/Homepageinnerslider';
 import PageNotFound from './Pages/PageNotFound';
+
+
 // const App = props => (
 //   <LoginForm />
 // );
@@ -28,40 +30,17 @@ import PageNotFound from './Pages/PageNotFound';
 
 // ReactDOM.render(<App />, document.getElementById('container'));
 const App=()=> {
-  console.log("Application started");
+
 
   return (
     <div className="App">
-      
-     {/* <LoginForm/> */}
-     {/* <Login/> */}
-     
-     {/* <Login2/> */}
-     {/* <LoginForm/> */}
-     {/* <LoginForm/> */}
+
     
 
      <Navbar/>
      
-
-
-
-
-     {/* <Homepage/> */}
-     {/* <Slider/> */}
-     
-     {/* <Homepageinnerslider/> */}
-
-    
-
      <MainRoutes/>
-     
 
-    {/* <PageNotFound/> */}
-
-      {/* <Footer/> */}
-     
-      
     </div>
   );
 }
